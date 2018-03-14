@@ -1,0 +1,32 @@
+{
+  "good-beers": [
+    {
+      "id": 1,
+      "name": "Hovels"
+    },
+    {
+      "id": 2,
+      "name": "Kronen"
+    },
+    {
+      "id": 3,
+      "name": "Brinkhoff"
+    },
+    {
+      "id": 4,
+      "name": "DAB"
+    },
+    {
+      "id": 5,
+      "name": "Jever"
+    },
+    {
+      "id": 6,
+      "name": "Bergmann"
+    },
+    {
+      "id": 7,
+      "name": "Hansa"
+    }
+  ]
+}

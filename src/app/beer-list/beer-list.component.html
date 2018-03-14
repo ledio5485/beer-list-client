@@ -1,0 +1,8 @@
+<mat-list>
+  <h1 mat-subheader>Beer List</h1>
+  <mat-list-item *ngFor="let beer of beers">
+    <mat-icon mat-list-icon>filter_{{beer.id}}</mat-icon>
+    <h4 mat-line>{{beer.name | uppercase}}</h4>
+    <mat-icon mat-list-icon (click)="delete(beer.id)" [style.cursor]="'pointer'">delete</mat-icon>
+  </mat-list-item>
+</mat-list>
